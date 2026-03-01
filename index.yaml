@@ -3,6 +3,16 @@ entries:
   veg-chart:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2026-03-01T08:38:12.472412264Z"
+    description: A Helm chart for Kubernetes
+    digest: 018daf5647635faff905c1c35c697553796313624b79086ad14bc998687dceeb
+    name: veg-chart
+    type: application
+    urls:
+    - https://github.com/RithikaMurugannn/new-veg-app/releases/download/veg-chart-0.1.8/veg-chart-0.1.8.tgz
+    version: 0.1.8
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2026-03-01T08:34:48.392114309Z"
     description: A Helm chart for Kubernetes
     digest: d4b7caac53d28a685c2fd5acc0eabc4738c18c17f10b84175b17000f09ba369a
@@ -21,4 +31,4 @@ entries:
     urls:
     - https://github.com/RithikaMurugannn/new-veg-app/releases/download/veg-chart-0.1.6/veg-chart-0.1.6.tgz
     version: 0.1.6
-generated: "2026-03-01T08:34:48.392131762Z"
+generated: "2026-03-01T08:38:12.472426962Z"
