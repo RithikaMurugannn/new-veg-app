@@ -57,8 +57,8 @@ pvc:
 #storage class
 
 storageclass:
- provisioner: ebs.csi.aws.com
- parameters:
-  type: gp3
- reclaimPolicy: Retain 
- volumeBindingMode: WaitForFirstConsumer
+  provisioner: ebs.csi.aws.com
+  parameters:
+    type: gp3
+  reclaimPolicy: Retain 
+  volumeBindingMode: WaitForFirstConsumer
