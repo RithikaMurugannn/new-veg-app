@@ -29,7 +29,7 @@ service:
 #mongo statefulset
 
 StatefulSet:
-  replicas: 2
+  replicas: 1
   label:
     app: mongodb
   containerName: mongodb-container
