@@ -9,7 +9,7 @@ configmap:
 #deployment
 
 deployment:
-  replicas: 3
+  replicas: 2
   name: veg-container
   label: 
     app: vegetable
