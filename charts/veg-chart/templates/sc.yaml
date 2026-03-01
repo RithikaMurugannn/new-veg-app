@@ -3,8 +3,8 @@ kind: StorageClass
 metadata:
   name: {{ .Release.Name }}-veg-svc
   namespace: {{ .Values.namespace }}
-provisioner: {{ .Values.storageClass.provisioner }}
+provisioner: {{ .Values.storageclass.provisioner }}
 parameters:
-  type: {{ .Values.storageClass.type }}  # general purpose SSD (gp3, gp2)
-reclaimPolicy: {{ .Values.storageClass.reclaimPolicy }} 
-volumeBindingMode: {{ .Values.storageClass.volumeBindingMode }}
+  type: {{ .Values.storageclass.type }}  # general purpose SSD (gp3, gp2)
+reclaimPolicy: {{ .Values.storageclass.reclaimPolicy }} 
+volumeBindingMode: {{ .Values.storageclass.volumeBindingMode }}
